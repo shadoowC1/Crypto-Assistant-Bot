@@ -45,7 +45,7 @@ def processQuery(chat_id , message_text , message_id , first_name , reply_to_mes
 
     if ModerationCommand != 0 and (chat_type == "group" or chat_type == "supergroup") and reply_to_message_id != None :
 
-            if isAdmin(chat_id , user_id) == 1 or user_id ==  :
+            if isAdmin(chat_id , user_id) == 1  :
 
                 if ModerationCommand == "/delete" :
 
